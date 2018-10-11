@@ -19,6 +19,4 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
-branch:
-  include:
-  - pushed
+branch: {}
